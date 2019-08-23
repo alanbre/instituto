@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hiring.Domain\Hiring.Domain.csproj" />
+    <ProjectReference Include="..\Hiring.Infra.Data\Hiring.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
